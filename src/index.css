@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "tailwindcss" important;
+
+@font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: YoungSerif;
+  src: url(/fonts/Young_Serif/YoungSerif-Regular.ttf) format("truetype");
+}
+
+@theme {
+  --color-m-escuro: #4E2C2E;
+  --color-m-medio: #6F4C3E;
+  --color-m-claro: #895B29;
+  --color-m-toddy: #A86E4D;
+  --color-m-mesa: #C19B6C;
+  --color-am-azedo: #C2B180;
+  --color-am-palido: #E3D8B5;
+  --color-rs-salmao: #E2C7B1;
+  --color-rs-palido: #FFF3E4;
+  --color-vd-amanteigado: #A1B5A1;
+
+  --font-title: "YoungSerif";
+  --font-default: "Inter";
+
+  --text-clamp: clamp(1rem, 5vh, 3rem)
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter;
+}
